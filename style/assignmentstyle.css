@@ -299,6 +299,7 @@
 }
 .ficon ul{
     display: flex;
+    margin-right: 200px;
 }
 .ficon1{
     padding: 0 540px;
@@ -338,4 +339,35 @@ input[type="submit"]{
     height: 52px;
     border-radius: 0 25px 25px  0;
     
+}
+.extra{
+    width: 1320px;
+    height:680px;
+    margin: auto 170px;
+    border-radius: 10px;
+}
+.s{
+    position: relative;
+}
+.s1{
+    background:none;
+    top: -230px;
+    right: -735px;
+    z-index: 2;
+}
+.s2{
+    background: none;
+    right: 300px;
+    top: 70px;
+    z-index: 1;
+}
+.s3{
+    z-index: 0;
+    background: none;
+    top: -150px;
+}
+.s4{
+    background: none;
+    top: -817px;
+    right: -890px;
 }
