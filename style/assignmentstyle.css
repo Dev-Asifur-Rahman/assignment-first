@@ -247,7 +247,7 @@
     margin: auto 170px;
 }
 .mail{
-    height: 616px;
+    height: 680px;
     width: 1320px;
     margin: auto 170px;
     border-radius: 16px;
@@ -313,4 +313,29 @@
     font-weight: 500;
     line-height: normal;
     padding: 40px 140px;
+}
+.box{
+    height: 72px;
+    width: 670px;
+    margin: 50px 470px;
+}
+input[type="text"]{
+    background: #FFF;
+    border: none;
+    outline: none;
+    width: 340px;
+    height: 52px;
+    border-radius: 25px 0 0 25px;
+}
+input ::placeholder{
+    font-family:'inter';
+}
+input[type="submit"]{
+    border: none;
+    outline: none;
+    background: red;
+    width: 140px;
+    height: 52px;
+    border-radius: 0 25px 25px  0;
+    
 }
